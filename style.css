@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+}
+
+.upperCard {
+    height: 50px;
+    width: 50px;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.lowerCard {
+    height: 50px;
+    width: 50px;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.player {
+    display: flex;
+    border: solid 1px;
+}
+
+#wholeTable {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#wholeTable > div {
+    flex: 1;
+}
+
+#topLayer {
+    display: flex;
+    justify-content: center;
+
+}
+
+#midLayer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#bottomLayer {
+    display: flex;
+    justify-content: center;
+}
+
+#humanResponse {
+    margin-top: 10px;
+    align-self: center;
+}
+
+#board {
+    display: flex;
+}
+
+#player3 {
+    display: none;
+}
+
+#player2 {
+    display: none;
+}
+
+#playerScore{
+    align-self: center;
+}
+
+#player1Score{
+    align-self: center;
+}
+

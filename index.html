@@ -1,0 +1,118 @@
+<!Doctype HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> superGame </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="wholeTable">
+    <div id="topLayer" class="layer">
+        <div id="player1" class="player">
+            <p> Player 1 </p>
+            <p id="player1Score"> <br> </p>
+            <div id="player1Card1" class="card">
+                <div id="player1Card1Upper" class="upperCard"></div>
+                <div id="player1Card1Lower" class="lowerCard"></div>
+            </div>
+            <div id="player1Card2" class="card">
+                <div id="player1Card2Upper" class="upperCard"></div>
+                <div id="player1Card2Lower" class="lowerCard"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="midLayer" class="layer">
+        <div id="player2" class="player">
+            <p> Player 2 </p>
+            <div id="player2Card1" class="card">
+                <div id="player2Card1Upper" class="upperCard"></div>
+                <div id="player2Card1Lower" class="lowerCard"></div>
+            </div>
+            <div id="player2Card2" class="card">
+                <div id="player2Card2Upper" class="upperCard"></div>
+                <div id="player2Card2Lower" class="lowerCard"></div>
+            </div>
+        </div>
+
+        <div id="board" class="board">
+            <div id="boardCard1" class="card">
+                <div id="boardCard1Upper" class="upperCard"></div>
+                <div id="boardCard1Lower" class="lowerCard"></div>
+            </div>
+
+            <div id="boardCard2" class="card">
+                <div id="boardCard2Upper" class="upperCard"></div>
+                <div id="boardCard2Lower" class="lowerCard"></div>
+            </div>
+
+            <div id="boardCard3" class="card">
+                <div id="boardCard3Upper" class="upperCard"></div>
+                <div id="boardCard3Lower" class="lowerCard"></div>
+            </div>
+
+            <div id="boardCard4" class="card">
+                <div id="boardCard4Upper" class="upperCard"></div>
+                <div id="boardCard4Lower" class="lowerCard"></div>
+            </div>
+
+            <div id="boardCard5" class="card">
+                <div id="boardCard5Upper" class="upperCard"></div>
+                <div id="boardCard5Lower" class="lowerCard"></div>
+            </div>
+
+
+            <div id="boardCard6" class="card">
+                <div id="boardCard6Upper" class="upperCard"></div>
+                <div id="boardCard6Lower" class="lowerCard"></div>
+            </div>
+
+            <div id="boardCard7" class="card">
+                <div id="boardCard7Upper" class="upperCard"></div>
+                <div id="boardCard7Lower" class="lowerCard"></div>
+            </div>
+
+        </div>
+
+        <div id="player3" class="player">
+            <p> Player 3 </p>
+            <div id="player3Card1" class="card">
+                <div id="player3Card1Upper" class="upperCard"></div>
+                <div id="player3Card1Lower" class="lowerCard"></div>
+            </div>
+            <div id="player3Card2" class="card">
+                <div id="player3Card2Upper" class="upperCard"></div>
+                <div id="player3Card2Lower" class="lowerCard"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="bottomLayer" class="layer">
+        <div id="humanPlayer" class="player">
+            <p> You <br></p>
+            <p id="humanScore"> <br>  </p>
+            <div id="humanPlayerCard1" class="card">
+                <div id="humanPlayerCard1Upper" class="upperCard"></div>
+                <div id="humanPlayerCard1Lower" class="lowerCard"></div>
+            </div>
+            <div id="humanPlayerCard2" class="card">
+                <div id="humanPlayerCard2Upper" class="upperCard"></div>
+                <div id="humanPlayerCard2Lower" class="lowerCard"></div>
+            </div>
+        </div>
+    </div>
+    <div id="humanResponse">
+        <form>
+            Your answer:
+            <input type="text" name="response">
+        </form>
+        <button id="playerResponseButton" type="button" onclick="playerMove()">Enter</button>
+    </div>
+</div>
+<script src="warray.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
